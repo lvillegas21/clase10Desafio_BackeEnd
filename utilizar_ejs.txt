@@ -1,0 +1,1 @@
+Para mi proyecto voy a utilizar ejs, debido a que me parece que es mas sencillo y dinamico de usar. 

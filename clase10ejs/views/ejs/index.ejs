@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CLASE 10 EJS</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+</head>
+<body>
+    <h1 style="text-align: center;">PRODUCTOS</h1>
+    
+    <% productos.forEach(producto => { %>  
+        <ul class="list-group" style="margin: 50px 500px">
+            <li class="list-group-item list-group-item-success"><img class="rounded mx-auto d-block" style="width: 200px;" src=<%- producto.thumbnail %>  alt=""></li>
+            <li class="list-group-item list-group-item-success">producto: <%= producto.title %>  </li>
+            <li class="list-group-item list-group-item-success">precio: <%= producto.price %></li>
+            <li class="list-group-item list-group-item-success">id: <%= producto.id %></li>
+        </ul> 
+    <% }); %> 
+    <button class="btn btn-warning" style="margin: 0px 500px 20px 500px"><a href="/">Agregar un nuevo producto</a></button>
+    
+</body>
+</html>

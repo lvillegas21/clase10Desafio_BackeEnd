@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "remera",
+    "price": 900,
+    "thumbnail": "https://www.remerasya.com/pub/media/catalog/product/cache/e4d64343b1bc593f1c5348fe05efa4a6/r/e/remera_azul_lisa_2.jpg"
+  },
+  {
+    "id": 2,
+    "title": "zapatillas",
+    "price": 15000,
+    "thumbnail": "https://ferreira.vteximg.com.br/arquivos/ids/344895-588-588/ad_ef9258.jpg?v=637308960534370000"
+  },
+  {
+    "id": 3,
+    "title": "pantalon jean",
+    "price": 2300,
+    "thumbnail": "https://www.guantexindustrial.com.ar/809-large_default/pantalon-jeans-talle-60.jpg"
+  }
+]

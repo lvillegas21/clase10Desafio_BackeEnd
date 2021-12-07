@@ -1,0 +1,11 @@
+extends index  
+
+block productos
+    h1(style="text-align: center;")= "PRODUCTOS"
+    each val in productos 
+        ul(class="list-group" style="margin: 50px 500px")    
+            li(class="list-group-item list-group-item-success"): img(src=val.thumbnail, alt="" style="width:200px" class="rounded mx-auto d-block")
+            li(class="list-group-item list-group-item-success")= "producto: " + val.title
+            li(class="list-group-item list-group-item-success")= "precio: " + val.price 
+            li(class="list-group-item list-group-item-success")= "id: " + val.id
+    button(class="btn btn-warning" style="margin: 0px 500px 20px 500px"): a(href="/")="agregar productos"
